@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UniCon1</string>
+    <string name="Toast1">Calculate length.</string>
+    <string name="Toast2">Calculate volumen.</string>
+    <string name="Toast3">Calculate temperature.</string>
+    <string name="Toast4">Calculate weight.</string>
+    <string name="name1">LENGTH CONVERSION</string>
+    <string name="name2">Result:</string>
+    <string name="equals">=</string>
+    <string name="name3">VOLUMEN CONVERSION</string>
+    <string name="name4">TEMPERATURE CONVERSION</string>
+
+
+
+</resources>
