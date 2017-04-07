@@ -9,4 +9,7 @@
     <color name="Pale_Blue_Lily">#CFECEC</color>
     <color name="Water">#EBF4FA</color>
     <color name="Powder_Blue">#C6DEFF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <item name="Yellow" type="color">#FFFFFF00</item>
 </resources>

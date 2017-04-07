@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Powder_Blue"
     tools:context="hr.ferit.dudovicic.unicon1.MainActivity">
 
     <ImageButton
@@ -14,6 +15,7 @@
         android:src="@drawable/lenght1"
         android:scaleType="fitCenter"
         android:onClick="secondActivity"
+        android:background="@color/colorPrimaryDark"
         />
     <ImageButton
         android:id="@+id/imageButton2"
@@ -23,6 +25,7 @@
         android:layout_below="@+id/imageButton1"
         android:scaleType="fitCenter"
         android:onClick="thirdActivity"
+        android:background="@color/Yellow"
         />
     <ImageButton
         android:id="@+id/imageButton3"
@@ -32,6 +35,7 @@
         android:layout_below="@+id/imageButton2"
         android:scaleType="fitCenter"
         android:onClick="fourthActivity"
+        android:background="@color/magenta"
         />
     <ImageButton
         android:id="@+id/imageButton4"
@@ -41,6 +45,7 @@
         android:layout_below="@+id/imageButton3"
         android:scaleType="fitCenter"
         android:onClick="fifthActivity"
+        android:background="@color/red"
         />
 
 

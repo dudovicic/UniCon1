@@ -22,19 +22,26 @@ public class MainActivity extends AppCompatActivity  {
 public void secondActivity(View view){
     Intent intent = new Intent(MainActivity.this, LengthActivity.class);
     startActivity(intent);
+    Toast.makeText(MainActivity.this,R.string.Toast1, Toast.LENGTH_SHORT).show();
 }
 
 public void thirdActivity(View view){
     Intent intent = new Intent(MainActivity.this, VolumenActivity.class);
     startActivity(intent);
+    Toast.makeText(MainActivity.this,R.string.Toast2, Toast.LENGTH_SHORT).show();
+
 }
 public void fourthActivity(View view){
     Intent intent = new Intent(MainActivity.this, TemperatureActivity.class);
     startActivity(intent);
+    Toast.makeText(MainActivity.this,R.string.Toast3, Toast.LENGTH_SHORT).show();
+
 }
 public void fifthActivity(View view){
     Intent intent = new Intent(MainActivity.this, WeightActivity.class);
     startActivity(intent);
+    Toast.makeText(MainActivity.this,R.string.Toast4, Toast.LENGTH_SHORT).show();
+
 }
 
 
