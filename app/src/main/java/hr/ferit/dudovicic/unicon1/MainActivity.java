@@ -12,11 +12,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity  {
 
-    //ImageButton imageButton1, img2, img3, img4;
-  //  Button Button1;
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +21,6 @@ public class MainActivity extends AppCompatActivity  {
 
 public void secondActivity(View view){
     Intent intent = new Intent(MainActivity.this, LengthActivity.class);
-
     startActivity(intent);
 }
 
@@ -35,11 +29,13 @@ public void thirdActivity(View view){
     startActivity(intent);
 }
 public void fourthActivity(View view){
-        Intent intent = new Intent(MainActivity.this, TemperatureActivity.class);
-        startActivity(intent);
+    Intent intent = new Intent(MainActivity.this, TemperatureActivity.class);
+    startActivity(intent);
 }
-
-
+public void fifthActivity(View view){
+    Intent intent = new Intent(MainActivity.this, WeightActivity.class);
+    startActivity(intent);
+}
 
 
 

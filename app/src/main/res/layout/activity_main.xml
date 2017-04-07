@@ -40,7 +40,7 @@
         android:src="@drawable/weight1"
         android:layout_below="@+id/imageButton3"
         android:scaleType="fitCenter"
-
+        android:onClick="fifthActivity"
         />
 
 
